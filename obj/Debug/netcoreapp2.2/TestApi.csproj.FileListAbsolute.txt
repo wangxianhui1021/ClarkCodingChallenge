@@ -1,0 +1,16 @@
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.deps.json
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.runtimeconfig.json
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.runtimeconfig.dev.json
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.dll
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.pdb
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.csprojAssemblyReference.cache
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.csproj.CoreCompileInputs.cache
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.RazorAssemblyInfo.cache
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.RazorAssemblyInfo.cs
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.AssemblyInfoInputs.cache
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.AssemblyInfo.cs
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.RazorTargetAssemblyInfo.cache
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.dll
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.pdb
+/Users/lizzy/Desktop/projects/TestApi/bin/Debug/netcoreapp2.2/TestApi.Views.dll
+/Users/lizzy/Desktop/projects/TestApi/obj/Debug/netcoreapp2.2/TestApi.csproj.CopyComplete
