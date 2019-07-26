@@ -18,8 +18,14 @@ namespace TestApi.Controllers
         //GET api/contacts
         public IEnumerable<Contact> GetContacts(){
             
-            return dataAccess.GetAllContacts().OrderBy(c => c.LastName);
+            return dataAccess.GetAllContacts().OrderBy(c => c.LastName).ThenBy(c => c.FirstName);
         
+        }
+        [HttpGet("DESC")]
+        //GET api/contacts/desc
+        public IEnumerable<Contact>GetContactsDesc(){
+            return dataAccess.GetAllContacts().OrderByDescending(c => c.LastName).ThenByDescending(c => c.FirstName);
+
         }
                 
          
@@ -38,8 +44,8 @@ namespace TestApi.Controllers
          //GET api/contacts/lastname/person's_lastname
          public IEnumerable <Contact> GetContactByLastName( string lastname){
             return dataAccess.GetAllContacts().Where(
-                 c => string.Equals(c.LastName, lastname, StringComparison.OrdinalIgnoreCase)
-             );
+                 c => string.Equals(c.LastName, lastname, StringComparison.OrdinalIgnoreCase)).OrderBy(c => c.LastName);
+             
 
          }
 
