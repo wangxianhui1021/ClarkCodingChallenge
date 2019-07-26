@@ -13,17 +13,18 @@ namespace TestApi.Controllers
     public class ContactsController : ControllerBase
     {
          static readonly IContactsDataAccess dataAccess = new ContactsDataAccess();
-        // GET api/values
+        
         [HttpGet]
-        // api/contacts
+        //GET api/contacts
         public IEnumerable<Contact> GetContacts(){
             
-            return dataAccess.GetAllContacts();
+            return dataAccess.GetAllContacts().OrderBy(c => c.LastName);
         
         }
-                //api/contacts/1
+                
          
          [HttpGet("ID/{id}", Name = "GetContact")]
+         //GET api/contacts/id/1
         public IActionResult GetContact(int id){
             var contact = dataAccess.Get(id);
             if (contact == null){
@@ -34,7 +35,7 @@ namespace TestApi.Controllers
 
         }
          [HttpGet("LASTNAME/{lastname}")]
-         
+         //GET api/contacts/lastname/person's_lastname
          public IEnumerable <Contact> GetContactByLastName( string lastname){
             return dataAccess.GetAllContacts().Where(
                  c => string.Equals(c.LastName, lastname, StringComparison.OrdinalIgnoreCase)
